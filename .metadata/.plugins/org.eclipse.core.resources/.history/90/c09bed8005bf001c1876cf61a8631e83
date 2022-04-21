@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<center>
+		<form action="Anadir">
+			Dirección: <input type="text" name="direccion"><br>
+			<input type="submit" value="Buscar">
+			
+			Temática: <input type="text" name="tema"><br>
+			<input type="submit" value="Buscar">
+			
+			Descripción: <input type="text" name="descripcion"><br>
+			
+			<input type="submit" value="Añadir">
+			<br>
+			<a href="datos.jsp">Volver</a>
+		</form>
+	
+	</center>
+</body>
+</html>

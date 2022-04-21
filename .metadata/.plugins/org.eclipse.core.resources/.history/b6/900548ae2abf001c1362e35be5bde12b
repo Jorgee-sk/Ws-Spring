@@ -1,0 +1,35 @@
+package model;
+
+public class Producto {
+	private String nombre;
+	private String seccion;
+	private String descripcion;
+	public Producto(String direccion, String tematica, String descripcion) {
+		super();
+		this.nombre = direccion;
+		this.seccion = tematica;
+		this.descripcion = descripcion;
+	}
+	public Producto() {
+		
+	}
+	public String getDireccion() {
+		return nombre;
+	}
+	public void setDireccion(String direccion) {
+		this.nombre = direccion;
+	}
+	public String getTematica() {
+		return seccion;
+	}
+	public void setTematica(String tematica) {
+		this.seccion = tematica;
+	}
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+	
+}

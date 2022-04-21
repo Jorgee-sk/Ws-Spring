@@ -1,0 +1,21 @@
+package config;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+@Configuration
+@ComponentScan(basePackages = {"service"})
+public class serviceConfig {
+	
+	public DataSource dataSource() {
+		DriverManagerDataSource data = new DriverManagerDataSource();
+		data.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		data.setUrl(null);
+		data.setUsername("root");
+		data.setPassword("");
+		return data;
+	}
+}

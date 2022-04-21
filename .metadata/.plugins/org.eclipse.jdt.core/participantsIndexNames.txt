@@ -1,0 +1,19 @@
+INDEX VERSION 1.131
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3265520871.index
+\06_tienda_bbdd_AJAX\src\main\java
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2716409840.index
+\07_alumnos_bbdd\src\main\java
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\425075783.index
+\03_buscador_spring_productos\src\main\java
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2879951663.index
+\02_buscador_spring\src\main\java
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2488829483.index
+\02_buscador_spring\src\main\java
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3233913509.index
+\04_tienda_bbdd\src\main\java
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3213696477.index
+\01_buscador_sin_spring_profe\src\main\java
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3130907901.index
+\04_tienda_bbdd\src\main\java
+C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2495114877.index
+\05_tienda_bbdd_config_clases\src\main\java

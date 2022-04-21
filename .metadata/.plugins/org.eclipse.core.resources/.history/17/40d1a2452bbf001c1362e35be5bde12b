@@ -1,0 +1,43 @@
+package model;
+
+public class Producto {
+	private String nombre;
+	private String seccion;
+	private int precio;
+	private int stock;
+	public Producto(String nombre, String seccion, int precio, int stock) {
+		super();
+		this.nombre = nombre;
+		this.seccion = seccion;
+		this.precio = precio;
+		this.stock = stock;
+	}
+	public Producto() {
+		
+	}
+	public String getDireccion() {
+		return nombre;
+	}
+	public void setDireccion(String direccion) {
+		this.nombre = direccion;
+	}
+	public String getTematica() {
+		return seccion;
+	}
+	public void setTematica(String tematica) {
+		this.seccion = tematica;
+	}
+	public int getDescripcion() {
+		return precio;
+	}
+	public void setDescripcion(int precio) {
+		this.precio = precio;
+	}
+	public int getStock() {
+		return stock;
+	}
+	public void setStock(String stock) {
+		this.stock = stock;
+	}
+	
+}

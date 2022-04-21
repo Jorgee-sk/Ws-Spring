@@ -1,0 +1,14 @@
+package service;
+
+import java.util.List;
+
+import model.Alumnos;
+
+public interface BuscadorService {
+	List <Alumnos> buscar(String seccion);
+	void alta(Alumnos p);
+	void eliminar(String nombre);
+	void modificar(String nombre, double p);
+	Alumno buscarProducto(int idProducto);
+	
+}
