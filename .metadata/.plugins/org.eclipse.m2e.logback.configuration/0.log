@@ -6295,3 +6295,7 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: unexpected 
 2022-04-21 12:22:27,093 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Trabajos\7_Spring\Ws_SpringWeb\07_alumnos_bbdd\src\main\resources
 2022-04-21 12:22:27,093 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-04-21 12:22:27,094 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Trabajos\7_Spring\Ws_SpringWeb\07_alumnos_bbdd\src\test\resources
+2022-04-21 12:23:01,509 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-21 12:23:01,510 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Trabajos\7_Spring\Ws_SpringWeb\07_alumnos_bbdd\src\main\resources
+2022-04-21 12:23:01,511 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-21 12:23:01,511 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Trabajos\7_Spring\Ws_SpringWeb\07_alumnos_bbdd\src\test\resources
