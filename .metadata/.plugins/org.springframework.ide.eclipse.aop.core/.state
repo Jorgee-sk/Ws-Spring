@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="06_tienda_bbdd_AJAX"/>
+<aop-project name="08_tienda_persistencia"/>
 <aop-project name="03_buscador_spring_productos"/>
+<aop-project name="07_alumnos_bbdd"/>
 <aop-project name="02_buscador_spring"/>
 <aop-project name="05_tienda_bbdd_config_clases"/>
 <aop-project name="04_tienda_bbdd"/>
