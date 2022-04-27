@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\08_tienda_persistencia" path="/08_tienda_persistencia" reloadable="true" source="org.eclipse.jst.jee.server:08_tienda_persistencia"/><Context docBase="C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\09_alumnos_persistencia" path="/09_alumnos_persistencia" reloadable="true" source="org.eclipse.jst.jee.server:09_alumnos_persistencia"/></Host>
+      <Context docBase="C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Trabajos\7_Spring\Ws_SpringWeb\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\11_formacion_relac" path="/11_formacion_relac" reloadable="true" source="org.eclipse.jst.jee.server:11_formacion_relac"/></Host>
     </Engine>
   </Service>
 </Server>

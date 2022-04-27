@@ -14,6 +14,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="10_escuela_relaciones"/>
 			<item value="08_tienda_persistencia"/>
 			<item value="04_tienda_bbdd"/>
 			<item value="03_buscador_spring_productos"/>
@@ -22,6 +23,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="10_escuela_relaciones"/>
 			<item value="08_tienda_persistencia"/>
 			<item value="04_tienda_bbdd"/>
 			<item value="03_buscador_spring_productos"/>

@@ -32,6 +32,7 @@ public class BuscadorController {
 		return buscadorService.cursos();
 	}
 	
+	
 	@PostMapping(value="Alta")
 	public String alta(@ModelAttribute Alumno alum) {
 		if(!buscadorService.buscarNombre(alum.getNombre())) {
@@ -39,8 +40,7 @@ public class BuscadorController {
 			return "inicio";
 		}else
 			return "inicio";
-			
-		
+	
 	}
 	
 }
