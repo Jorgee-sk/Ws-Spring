@@ -36,7 +36,6 @@
     <fullyQualifiedTypeName name="org.mockito.junit.jupiter.MockitoExtension"/>
     <fullyQualifiedTypeName name="dao.CursoDao"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-    <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="model.Cliente"/>
     <fullyQualifiedTypeName name="model.Cuenta"/>
     <fullyQualifiedTypeName name="dto.MovimientosDto"/>
+    <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 </qualifiedTypeNameHistroy>

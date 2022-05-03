@@ -64,29 +64,35 @@ public class FormacionController {
 		return formacionService.cursosAlumnoNoMatric(usuario);
 	}
 	
-	@GetMapping(value="fechasCursos",produces = MediaType.APPLICATION_JSON_VALUE)
-	public @ResponseBody List<MatriculaDto> fechasCursos(@RequestParam("fechaInicio") @DateTimeFormat(pattern="yyyy-MM-dd") Date fInit,
-												  @RequestParam("fechaFin") @DateTimeFormat(pattern="yyyy-MM-dd") Date fFin) {
+	@GetMapping(value="consultarMatriculas",produces = MediaType.APPLICATION_JSON_VALUE)
+	public @ResponseBody List<MatriculaDto> fechasCursos(@RequestParam("fechaIni") @DateTimeFormat(pattern="yyyy-MM-dd") Date fechaInicio,
+												  @RequestParam("fechaFin") @DateTimeFormat(pattern="yyyy-MM-dd") Date fechaFin) {
 		 
-		return formacionService.cursosFechas(fInit,fFin);
+		return formacionService.cursosFechas(fechaInicio,fechaFin);
 	}
 	
 	@PostMapping(value="altaAlumno",produces = MediaType.APPLICATION_JSON_VALUE)
-	public @ResponseBody String altaAlumno(@ModelAttribute AlumnoDto a) {
-		return formacionService.añadirAlumno(a)?"menu":"altaAlumno";
+	public String altaAlumno(@ModelAttribute AlumnoDto a) {
+		if(formacionService.añadirAlumno(a))
+			return "menu";
+		else
+			return "altaAlumno";
 		
 	}
 	
 	@PostMapping(value="altaCurso",produces = MediaType.APPLICATION_JSON_VALUE)
-	public @ResponseBody String altaCurso(@ModelAttribute CursoDto c) {
+	public String altaCurso(@ModelAttribute CursoDto c) {
+		
 		return formacionService.añadirCurso(c)?"menu":"altaCurso";
 		
 	}
 	
 	@PostMapping(value="matricular",produces = MediaType.APPLICATION_JSON_VALUE)
 	public String matricular(@RequestParam("idCurso") int idCurso, @RequestParam("usuario") String usuario) {
-		formacionService.matricular(usuario, idCurso);
-		return "";
+		if(formacionService.matricular(usuario, idCurso))
+			return "menu";
+		else
+			return "matricular";
 	}
 	
 	

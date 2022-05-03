@@ -96,12 +96,12 @@ public class FormacionServiceImpl implements FormacionService{
 	@Override
 	public boolean añadirAlumno(AlumnoDto a) {
 		
-		Optional<Alumno> alum = alumnosDao.findById(a.getUsuario());
-		if(alum.isPresent()) {
-			return false;
+		if(alumnosDao.findById(a.getUsuario())!=null) {
+			alumnosDao.save(conversor.dtoToAlumno(a));
+			return true;
 		}
-		alumnosDao.save(conversor.dtoToAlumno(a));
-		return true;
+		return false;
+		
 		
 	}
 	
