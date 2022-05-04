@@ -5,7 +5,36 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-05-03T00:03:00Z</updated>
+  <updated>2022-05-03T18:00:00Z</updated>
+  <entry>
+    <title>This Week in Spring - May 3rd, 2022</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/05/03/this-week-in-spring-may-3rd-2022" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-05-03:4784</id>
+    <updated>2022-05-03T18:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! How are you doin&amp;rsquo;? &lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m excited! This week I&amp;rsquo;m speaking at the &lt;a href="https://twitter.com/arabjug"&gt;ArabJUG&lt;/a&gt;, and I&amp;rsquo;ll be speaking at Microsoft&amp;rsquo;s &lt;em&gt;huuuge&lt;/em&gt; &lt;a href="https://docs.microsoft.com/en-us/events/learntv/jdconf-2022/"&gt;JDConf&lt;/a&gt; event. Both of these are virtual. Then, next Monday, I&amp;rsquo;m on a plane bound for London, UK, where I&amp;rsquo;ll be speaking &lt;a href="https://www.devoxx.co.uk/"&gt;at Devoxx UK 2022&lt;/a&gt;. Then, not even two weeks later, I&amp;rsquo;ll be speaking at &lt;a href="https://2022.springio.net/"&gt;Spring IO&lt;/a&gt;, in Barcelona, Spain! Then a week later, I&amp;rsquo;ll be speaking at &lt;a href="https://2022.jnation.pt/"&gt;JNation&lt;/a&gt;, in Lisbon, Portugal. To say that I am excited would be an understatement, my friends. &lt;/p&gt;
+&lt;p&gt;And all of that ignores the great stuff since &lt;em&gt;last&lt;/em&gt; week. Let&amp;rsquo;s dive right into it! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Last week I talked to fellow Java Champion, Sun veteran, and industry legend Simon Ritter on &lt;a href="https://spring.io/blog/2022/04/28/a-bootiful-podcast-simon-ritter-java-champion-and-deputy-cto-at-azul"&gt;A Bootiful Podcast: Simon Ritter, Java Champion, and deputy CTO at Azul&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I love this thread from our own &lt;a href="https://twitter.com/nebhale"&gt;Ben Hale&lt;/a&gt; on why Loom serves reactive programming but doesn&amp;rsquo;t moot it: &lt;a href="https://twitter.com/nebhale/status/1518706290041655299"&gt;&amp;quot;I think this confuses the problems with the Servlet API (connection-per-thread) and the overhead of threads. The fact that Netty can do what it does without Loom (because it serves multiple connections)&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa"&gt;Ever wanted to rewrite a query in Spring Data JPA?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-1-2h7h"&gt;Functional Kafka with Spring Cloud - Part 1 - DEV Community&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-2-20g9"&gt;Functional Kafka with Spring Cloud - Part 2 - DEV Community&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/anthonyikeda/functional-kafka-with-spring-cloud-part-3-543j"&gt;Functional Kafka with Spring Cloud - Part 3 - DEV Community&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/stefanocodes/status/1520869942756880385?s=12&amp;t=4hPUwCHXQ9LYvA9lSA-Img"&gt;Inspired by Spring Cloud AWS, #AssertJ also offers a @gitpod button to spin up a browser-based VSCode or an @intellijidea instance already configured with the AssertJ codebase. We hope this will make contributing a little easier&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.infoq.com/news/2022/04/jobrunr-5-0-0/"&gt;JobRunr 5.0.0 Delivers Improved Framework Support&lt;/a&gt; - the new release also includes the Spring Native integration that I helped contribute&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://apurvsheth.medium.com/serverless-with-spring-f65cbb8bea51"&gt;Serverless with Spring. 1. Introduction:  In this article, we… | by Apurv Sheth | Mar, 2022 | Medium&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/04/26/spring-tools-4-14-1-released"&gt;Spring Tools 4.14.1 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/maciejwalkowiak/status/1520662926851461121"&gt;To simplify contributing to Spring Cloud AWS, we&amp;rsquo;ve added the @gitpod button that launches a VSCode based @gitpod environment configured to work with Java and Spring.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1519720080208146432"&gt;Ready? Microsoft JDConf - Java dev conference is happening May 4/5! Virtual, free, and open to all. An amazing lineup of speakers and topics from around the world. Mark your calendars.&lt;/a&gt; - I&amp;rsquo;ll be speaking there, too!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/05/03/dockershim-historical-context/"&gt;Blog: Dockershim: The Historical Context&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Ever wanted to rewrite a query in Spring Data JPA?</title>
     <link rel="alternate" href="https://spring.io/blog/2022/05/02/ever-wanted-to-rewrite-a-query-in-spring-data-jpa" />
@@ -810,42 +839,6 @@ public class GraphQlExample {&#xD;
 &lt;p&gt;Spring Framework &lt;code&gt;5.3.19&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.19"&gt;12 fixes and improvements&lt;/a&gt;. Spring Framework &lt;code&gt;5.2.21&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.2.21.RELEASE"&gt;5 selected fixes and improvements&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In addition, Spring Framework &lt;code&gt;5.3.19&lt;/code&gt; and &lt;code&gt;5.2.21&lt;/code&gt; include a fix for &lt;a href="https://spring.io/blog/2022/04/13/spring-framework-data-binding-rules-vulnerability-cve-2022-22968"&gt;CVE-2022-22968: Spring Framework Data Binding Rules Vulnerability&lt;/a&gt; and are recommended upgrades for all Spring production scenarios.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.19/reference/html/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - April 12th, 2022 (Devnexus 2022 Edition!!)</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/04/12/this-week-in-spring-april-12th-2022-devnexus-2022-edition" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-04-12:4764</id>
-    <updated>2022-04-12T22:00:00Z</updated>
-    <content type="html">&lt;h2&gt;&lt;a href="#this-week-in-spring-devnexus-edition" class="anchor" name="this-week-in-spring-devnexus-edition"&gt;&lt;/a&gt;This Week in Spring - Devnexus Edition&lt;/h2&gt;
-&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt; - I&amp;rsquo;m at my first in-person event since the virus: Devnexus! WOOHOOO!! Well, technically I&amp;rsquo;m still in San Francisco as I write this, but I&amp;rsquo;ll be in Atlanta, GA tomorrow for&amp;hellip; Devnexus! I hope if you&amp;rsquo;re there that you&amp;rsquo;ll reach out! &lt;/p&gt;
-&lt;p&gt;Friends, colleagues, and community members from the Spring, Tanzu, and adjoining communities will also be there! Here are some of the people I hope to nab a selfie with and whose talks I hope to see! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/699"&gt;Glenn Renfro&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/3383"&gt;Adib Saikali&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/3373"&gt;Joe Grandja&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/3269"&gt;Whitney Lee&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/3231"&gt;Hillmer Chona&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/2658"&gt;Jonatan Ivanov&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/2647"&gt;Josh Cummings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/2271"&gt;Alberto C. Rios&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://devnexus.com/speakers/3246"&gt;Simon Brown&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;And of course &lt;a href="https://devnexus.com/speakers/1669"&gt;I&amp;rsquo;ll be doing two talks, as well,&lt;/a&gt; (one on GraalVm and another on edge services) and I hope you&amp;rsquo;ll come see those, too! &lt;/p&gt;
-&lt;p&gt;And with that out of the way, let&amp;rsquo;s get on with our regularly scheduled roundup!&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/04/07/a-bootiful-podcast-graphql-java-founder-andi-marek"&gt;A Bootiful Podcast: GraphQL Java founder Andi Marek&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/asirselvasingh/status/1511758596698099712?s=12&amp;t=RpVGANAybKGoPHwwYDPBCQ"&gt;Asir V Selvasingh on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/04/07/upcoming-changes-in-kubernetes-1-24/"&gt;Blog: Kubernetes Removals and Deprecations In 1.24&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Congrats to the Hibernate team &lt;a href="https://in.relation.to/2022/03/31/orm-60-final/"&gt;for reaching Hibernate 6.0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sivalabs.in/2022/04/my-attempt-to-understand-why-people-perceive-java-as-complex/"&gt;SivaLabs has a nice post called, &amp;ldquo;My attempt to understand why people perceive Java as complex.&amp;rdquo; &lt;/a&gt; What do you think?&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/04/05/spring-cloud-data-flow-2-9-4-released"&gt;Spring Cloud Data Flow 2.9.4 Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1512161238121209856"&gt; Spring Cloud Azure 4.0 integrations are generally available. &lt;/a&gt; Congrats to the teams at Microsoft and the community on such an epic release!&lt;/li&gt;
-&lt;/ul&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="06_tienda_bbdd_AJAX"/>
 <aop-project name="09_alumnos_persistencia"/>
-<aop-project name="08_tienda_persistencia"/>
+<aop-project name="10_escuela_relaciones"/>
+<aop-project name="11_formacion_relac"/>
 <aop-project name="03_buscador_spring_productos"/>
 <aop-project name="07_alumnos_bbdd"/>
-<aop-project name="02_buscador_spring"/>
+<aop-project name="16_cajero_bd"/>
+<aop-project name="14_formacion_app_dto"/>
 <aop-project name="04_tienda_bbdd"/>
+<aop-project name="13_formacion_app"/>
+<aop-project name="06_tienda_bbdd_AJAX"/>
+<aop-project name="08_tienda_persistencia"/>
+<aop-project name="12_formacion_spring_data_jpa"/>
+<aop-project name="02_buscador_spring"/>
+<aop-project name="15_formacion_matriculas"/>
 <aop-project name="05_tienda_bbdd_config_clases"/>
 </aop-reference-model>

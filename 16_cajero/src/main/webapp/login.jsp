@@ -4,15 +4,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Login</title>
 </head>
 <body>
-<center>
-	<form action="validar" method="POST">
-			Numero de cuenta:<input type="text" name="numeroCuenta"><br>
-			<br>
-			<input type="submit" value="Login">
-	</form>
-</center>
+	<center>
+		<form action="Login" method="POST">
+			Numero De Cuenta: <input type="text" name="numeroCuenta">
+		<br><br>
+			<input type="submit" value="Entrar">
+		</form>
+	</center>
+	
+	
 </body>
 </html>

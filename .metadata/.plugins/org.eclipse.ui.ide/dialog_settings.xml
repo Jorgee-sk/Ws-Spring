@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Trabajos\7_Spring\Ws_SpringWeb\16_Cajero_"/>
 			<item value="C:\Trabajos\7_Spring\Ws_SpringWeb\03_buscador_spring_productos"/>
 			<item value="C:\Trabajos\7_Spring\01_buscador_sin_spring_profe"/>
 		</list>

@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+div{
+	display:inline-block;
+	width:100%;
+	
+	
+}
+
+input{
+	height: 45px;
+	width:70%;
+}
+
+
+button{
+	color:black;
+	height: 50px;
+}
+
+.submitButton{
+	background-color:rgba(30,141,187,255);
+	border: none;
+    color: white;
+    height: 50px;
+    width:75% !important; 
+}
