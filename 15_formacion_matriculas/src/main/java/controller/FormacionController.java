@@ -81,8 +81,8 @@ public class FormacionController {
 	}
 	
 	@PostMapping(value="altaCurso",produces = MediaType.APPLICATION_JSON_VALUE)
-	public String altaCurso(@ModelAttribute CursoDto c) {
-		
+	public String altaCurso(@ModelAttribute CursoDto c ,@RequestParam("fecha")@DateTimeFormat(pattern="yyyy-MM-dd") Date fechaInicio) {
+		c.setFechaInicio(fechaInicio);		
 		return formacionService.añadirCurso(c)?"menu":"altaCurso";
 		
 	}

@@ -20,7 +20,7 @@
 		<br>
         Fecha:
         <br>
-        <input type="date" name="fechaInicio" placeholder="Fecha de inicio" required><br>
+        <input type="date" name="fecha" placeholder="Fecha de inicio" required><br>
         <br>
 
         <input type="submit" value="Guardar">
